@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="SampleDBEntities-Web.config Connection String" description="SampleDBEntities Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/Model.SampleDBModel.csdl|res://*/Model.SampleDBModel.ssdl|res://*/Model.SampleDBModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=plmssrv1.database.windows.net;initial catalog=SampleDB;user id=sutz;password=P@ssw0rd;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\Geek\\Dev\\Prototype\\WebAppCuba\\WebAppCuba\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='SampleDBEntities']/@connectionString" />
+  </parameter>
+</parameters>
